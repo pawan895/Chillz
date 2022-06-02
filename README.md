@@ -3,6 +3,7 @@ Chillz App Create a movie application using TMDB API. The application shows a li
 
 
 #Demo
+The animation may seem lagging in virtual device but in real device it works smoothly ;-)
 
 
 
