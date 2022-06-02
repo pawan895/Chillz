@@ -1,6 +1,18 @@
 # Chillz
 Chillz App Create a movie application using TMDB API. The application shows a list of top currently running movies on the Dashboard screen. 
 
+
+#Demo
+
+
+
+
+https://user-images.githubusercontent.com/81580980/171637669-aa2cfec1-1948-4586-8a17-a71097d47ce8.mp4
+
+
+
+
+
 #Splash Screen
 
 ![image](https://user-images.githubusercontent.com/81580980/171625942-936cba76-e3f8-4c6d-99d8-0a180057e384.png)
