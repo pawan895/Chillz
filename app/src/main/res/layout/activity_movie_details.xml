@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B3C56"
+    tools:context=".MovieDetails">
+
+    <ImageView
+        android:id="@+id/detailsBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/imagecorner"
+        android:scaleType="centerCrop"
+        android:src="@drawable/secondtop"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.38"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.65"
+        app:layout_constraintHorizontal_bias="0"
+        android:background="@drawable/corner_edge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+
+        <TextView
+            android:id="@+id/tvMovieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingTop="8dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Doctor's Strange"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/tvMovieOverView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease."
+                android:textColor="#ABC5C5C5"
+                android:textSize="16sp" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:paddingTop="8dp"
+                        android:text="IMDb 6.4"
+                        android:textColor="#00AAE4" />
+
+                    <TextView
+                        android:id="@+id/tvRunTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:paddingTop="8dp"
+                        android:text="Runtime : 115 mins"
+                        android:textColor="#00AAE4" />
+
+
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Language"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+                            android:id="@+id/tvLanguage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="English"
+                            android:textColor="#ABC5C5C5" />
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Release date"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/tvReleaseDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="12-02-2002"
+                            android:textColor="#ABC5C5C5" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Genre"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/tvGenre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Romantic, Action"
+                            android:textColor="#ABC5C5C5" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Production "
+                            android:textColor="#ffffff" />
+                       <TextView
+                            android:id="@+id/tvProductionCompanies"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Marvel Studio"
+                            android:textColor="#ABC5C5C5" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Budget"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/tvBudget"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="16cr"
+                            android:textColor="#ABC5C5C5" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Revenue"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/tvRevenue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="400cr"
+                            android:textColor="#ABC5C5C5" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Website"
+                            android:textColor="#ffffff" />
+                        <TextView
+                            android:id="@+id/tvHomepage"
+                            android:linksClickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="www.google.com"
+                            android:textColor="#ABC5C5C5" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
