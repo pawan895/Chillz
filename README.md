@@ -2,15 +2,13 @@
 Chillz App Create a movie application using TMDB API. The application shows a list of top currently running movies on the Dashboard screen. 
 
 
-
-
 Technical Components:
 
-• Language - Java
-• Networking – Retrofit ~ OkHttp
-• JsonParsing – Google GSON
-• Image Loading + Caching – Picasso
-• API - the moviedatabase API
+ &nbsp; &nbsp; &nbsp; &nbsp;  • Language - Java <br />
+ &nbsp; &nbsp; &nbsp; &nbsp;  • Networking – Retrofit ~ OkHttp <br />
+  &nbsp; &nbsp; &nbsp; &nbsp; • JsonParsing – Google GSON<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;  • Image Loading + Caching – Picasso<br />
+ &nbsp; &nbsp; &nbsp; &nbsp;  • API - the moviedatabase API<br />
 
 
 
