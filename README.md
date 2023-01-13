@@ -1,5 +1,5 @@
 # Chillz
-Chillz App is a movie application using TMDB API. The application shows a list of top currently running movies on the Dashboard screen. 
+Chillz App is a movie application using TMDB API. The application shows a list of top currently running movies on the Dashboard screen. <br>The data is fetched in JSON format from TMDB(The movie Database)'s API and Displayed in the dashboard screen
 
 
 Technical Components:
